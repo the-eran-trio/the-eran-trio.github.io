@@ -1,10 +1,27 @@
 * {
 	font-family: Abel, sans-serif;
+
+}
+
+body {
+	margin: 0px;
+    padding: 50px 30px;
+}
+
+h1 {
+	color: #01B96F;
 }
 
 .center {
 	width: 400px;
 	margin: auto;
+	text-align: center;
+}
+
+.social {
+	margin: 10px auto;
+	padding: 20px;
+
 }
 
 a:-webkit-any-link {
@@ -12,4 +29,5 @@ a:-webkit-any-link {
 }
 /* Counteracts the default user agent style to underline links, this one is a bit beyond my grasp currently */
 
-/* Does this change show? */
+
+/* Border view 	border: 1px solid grey; */
