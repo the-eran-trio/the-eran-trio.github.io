@@ -1,0 +1,17 @@
+* {
+    border: 1px solid gray;
+}
+
+* {
+	font-family: Abel, sans-serif;
+}
+
+.center {
+	width: 400px;
+	margin: auto;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+/* Counteracts the default user agent style to underline links, this one is a bit beyond my grasp currently */
