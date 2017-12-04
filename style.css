@@ -1,6 +1,5 @@
 * {
-	font-family: Abel, sans-serif;
-
+	font-family: Abel, Ariel, sans-serif;
 }
 
 body {
@@ -18,10 +17,15 @@ h1 {
 	text-align: center;
 }
 
-.social {
-	margin: 10px auto;
-	padding: 20px;
+/* The below class still doesn't behave the way I want it to, see index sheet comments */
+.internalnavigation {
+	display: inline-block;
+}
 
+.social {
+	margin: 10px;
+	padding: 20px;
+	display: inline;
 }
 
 a:-webkit-any-link {

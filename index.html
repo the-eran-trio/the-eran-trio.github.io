@@ -1,3 +1,5 @@
+<!-- Developer: Eran Karanouh-Schuler -->
+
 <!DOCTYPE html>
 
 <html>
@@ -8,21 +10,26 @@
   </head>
 <body>
   <h1 class="center">The Eran Trio</h1>
-  <p class="center">This is where I'll practice my web development/design</p>
-  <ul>
-  	<li><a href="#aboutme">About Me</a></li>
-  	<li><a href="#currentprojects">Current Projects</a></li>
-  	<li><a href="#futureprojects">Future Projects</a></li>
-  	<li><a href="./siteprogress.html">Site Progress</a></li>
-  </ul>
+  <p class="center">A humble website where I'll practice my web development/design</p>
+  
+<!-- The below div still doesn't work the way I want it to. I'd like to add some space to the internal links (potentially centered on the page like the title), but I can't get the links to behave properly. I've tried styling the link's like the social links below, wrapping the link in a p element, and the below class embedded in the link element. No beuno -->
+
+  <div>  
+    <a href="#aboutme" class="internalnavigation">About Me</a>
+    <a href="#currentprojects" class="internalnavigation">Current Projects</a>
+    <a href="#futureprojects" class="internalnavigation">Future Projects</a>
+    <a href="./siteprogress.html" class="internalnavigation">Site Progress</a>
+  </div>
   <div id="aboutme">
     <h3>About Me</h3>
     <p>I'm a tech enthusiast, and have always loved the front end of the coding world. While I am somewhat competant at navigating through gui's and nice UI's, the back end was foreign to me. These are my first steps into understanding more about how we tell computers what to do.</p>
+  </div>
   <div id="currentprojects">
     <h3>Current Projects</h3>
     <ul>
   	  <li>This very site</li>
     </ul>
+  </div>
   <div id="futureprojects">
   	<h3>Future Projects</h3>
   	<ul>
@@ -40,9 +47,10 @@
           <ul>Bonus: add in analytic features</ul>
   		</li>
   	</ul>
-<!--    <div id="contact">  -->
-      <a class="social" href="https://github.com/the-eran-trio">GitHub Profile</a>
-      <span><a class="social" href="https://linkedin.com/in/eran-karanouh-schuler-b5a40179">LinkedIn</a></span>
-
+  </div>
+  <footer>   
+    <a class="social" href="https://github.com/the-eran-trio">GitHub Profile</a>
+    <a class="social" href="https://linkedin.com/in/eran-karanouh-schuler-b5a40179">LinkedIn</a>
+  </footer> 
 </body>
 </html>
