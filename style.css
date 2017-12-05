@@ -1,18 +1,27 @@
 * {
 	font-family: Abel, Ariel, sans-serif;
+	border: 1px solid grey;
 }
 
 body {
 	margin: 0px;
-    padding: 50px 30px;
+    padding: 20px 20px;
 }
 
 h1 {
-	color: #01B96F;
+	color: black;
+	height: 507px;
+	width: 896px;
 }
 
+.headerimage {
+	background-image: url(Images/Photos/IMAG0015.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
 .center {
-	width: 400px;
 	margin: auto;
 	text-align: center;
 }
