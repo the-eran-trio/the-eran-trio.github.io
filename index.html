@@ -9,15 +9,13 @@
     <title>The Eran Trio</title>
   </head>
 <body>
-  <h1 class="center headerimage">The Eran Trio</h1>
-  
-<!-- The below div still doesn't work the way I want it to. I'd like to add some space to the internal links (potentially centered on the page like the title), but I can't get the links to behave properly. I've tried styling the link's like the social links below, wrapping the link in a p element, and the below class embedded in the link element. No beuno -->
-
-  <div>  
-    <a href="#aboutme" class="internalnavigation">About Me</a>
-    <a href="#currentprojects" class="internalnavigation">Current Projects</a>
-    <a href="#futureprojects" class="internalnavigation">Future Projects</a>
-    <a href="./siteprogress.html" class="internalnavigation">Site Progress</a>
+  <h1 class="headerimage">The Eran Trio</h1>
+  <div class="space">
+    <div class="grid">
+      <div class="box a"><a href="#aboutme">About Me</a></div>
+      <div class="box b"><a href="#currentprojects">Current Projects</a></div>
+      <div class="box c"><a href="#futureprojects">Future Projects</a></div>
+    <div class="box d"><a href="./siteprogress.html">Site Progress</a></div>
   </div>
   <div id="aboutme">
     <h3>About Me</h3>
@@ -46,6 +44,7 @@
           <ul>Bonus: add in analytic features</ul>
   		</li>
   	</ul>
+  </div>
   </div>
   <footer>   
     <a class="social" href="https://github.com/the-eran-trio">GitHub Profile</a>

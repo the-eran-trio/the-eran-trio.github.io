@@ -1,30 +1,44 @@
 * {
 	font-family: Abel, Ariel, sans-serif;
-	border: 1px solid grey;
 }
 
 body {
 	margin: 0px;
-    padding: 20px 20px;
+    padding: 0px 0px;
+    background-color: #cccccc;
 }
 
+.space {
+	padding-left: 10px;	
+}
+
+.grid {
+	display: grid;
+	width: auto;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	padding: 20px;
+	font-size: 1.25rem;
+	grid-column-gap: 2px;
+}
+
+/* Still need to solve rezising issue. Element doesn't scale down properly */
 h1 {
-	color: black;
-	height: 507px;
-	width: 896px;
+	color: rgba(0, 60, 153, 1);
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	line-height: 2em;
+	font-size: 10em;
 }
 
 .headerimage {
-	background-image: url(Images/Photos/IMAG0015.jpg);
-    background-size: 100% 100%;
+	background-image: url(Images/Photos/PANO_20160805_113636.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-
-.center {
-	margin: auto;
-	text-align: center;
-}
 
 /* The below class still doesn't behave the way I want it to, see index sheet comments */
 .internalnavigation {
