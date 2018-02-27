@@ -23,18 +23,6 @@ body {
 	grid-column-gap: 2px;
 }
 
-/* Old grid style
-.grid2 {
-	display: grid;
-	width: auto;
-	grid-template-columns: repeat(2, 1fr);
-	justify-items: center;
-	padding: 20px;
-	font-size: 1.25rem;
-	grid-column-gap: 2px;
-}
-*/
-
 #aboutme { grid-area: aboutme; }
 #funstuff { grid-area: funstuff; }
 #currentprojects { grid-area: currentprojects; }
@@ -98,7 +86,6 @@ h1 {
 	display: inline-grid;
 	width: auto;
 	grid-template-columns: repeat(3, 1fr);
-	justify-items: center;
 	padding: 20px;
 	font-size: 1.25rem;
 	grid-column-gap: 2px;
