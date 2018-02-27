@@ -12,16 +12,65 @@ body {
 	padding-left: 10px;	
 }
 
+
 .grid {
 	display: grid;
 	width: auto;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	justify-items: center;
 	padding: 20px;
 	font-size: 1.25rem;
 	grid-column-gap: 2px;
 }
 
+/* Old grid style
+.grid2 {
+	display: grid;
+	width: auto;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	padding: 20px;
+	font-size: 1.25rem;
+	grid-column-gap: 2px;
+}
+*/
+
+#aboutme { grid-area: aboutme; }
+#funstuff { grid-area: funstuff; }
+#currentprojects { grid-area: currentprojects; }
+#futureprojects { grid-area: futureprojects; }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: auto 25% 25%;
+  grid-template-areas:
+    'aboutme funstuff funstuff'
+    'currentprojects funstuff funstuff'
+    'futureprojects funstuff funstuff';
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container {
+  font-size: 1.3em;
+}
+
+.gridimage1 { grid-area: gridimage1; }
+.gridimage2 { grid-area: gridimage2; }
+.gridimage3 { grid-area: gridimage3; }
+.gridimage4 { grid-area: gridimage4; }
+
+.grid3 {
+  display: grid;
+  grid-template-areas:
+    'gridimage1 gridimage2'
+	'gridimage3 gridimage3'
+	'gridimage4 gridimage4';
+  grid-gap: 10px;
+}
+
+.funstuffimage {
+	height: 7em; 
+}
 /* Still need to solve rezising issue. Element doesn't scale down properly */
 h1 {
 	color: rgba(0, 60, 153, 1);
@@ -45,10 +94,14 @@ h1 {
 	display: inline-block;
 }
 
-.social {
-	margin: 10px;
+.socialgrid {
+	display: inline-grid;
+	width: auto;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
 	padding: 20px;
-	display: inline;
+	font-size: 1.25rem;
+	grid-column-gap: 2px;
 }
 
 a:-webkit-any-link {
