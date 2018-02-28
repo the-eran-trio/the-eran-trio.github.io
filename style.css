@@ -54,10 +54,11 @@ body {
 	'gridimage3 gridimage3'
 	'gridimage4 gridimage4';
   grid-gap: 10px;
+  justify-content: space-between;
 }
 
 .funstuffimage {
-	height: 7em; 
+	height: 8.5em; 
 }
 /* Still need to solve rezising issue. Element doesn't scale down properly */
 h1 {
@@ -82,10 +83,14 @@ h1 {
 	display: inline-block;
 }
 
-.socialgrid {
-	display: inline-grid;
-	width: auto;
+footer {
+	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+
+}
+.socialgrid {
+	width: auto;
 	padding: 20px;
 	font-size: 1.25rem;
 	grid-column-gap: 2px;
