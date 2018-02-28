@@ -8,6 +8,33 @@ body {
     background-color: #cccccc;
 }
 
+.entireSite {
+	width: 100%;
+}
+
+/* Still need to solve rezising issue. Element doesn't scale down properly */
+h1 {
+	color: rgba(255, 255, 255, 0.5);
+	height: auto;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	line-height: 2em;
+	font-size: 10em;
+}
+
+.headerimage {
+	background-image: url(Images/Photos/PANO_20160805_113636.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* The below class still doesn't behave the way I want it to, see index sheet comments */
+.internalnavigation {
+	display: inline-block;
+}
+
 .space {
 	padding-left: 10px;	
 }
@@ -59,28 +86,6 @@ body {
 
 .funstuffimage {
 	height: 8.5em; 
-}
-/* Still need to solve rezising issue. Element doesn't scale down properly */
-h1 {
-	color: rgba(0, 60, 153, 1);
-	height: auto;
-	width: auto;
-	margin: auto;
-	text-align: center;
-	line-height: 2em;
-	font-size: 10em;
-}
-
-.headerimage {
-	background-image: url(Images/Photos/PANO_20160805_113636.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-/* The below class still doesn't behave the way I want it to, see index sheet comments */
-.internalnavigation {
-	display: inline-block;
 }
 
 footer {
