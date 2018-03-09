@@ -43,7 +43,7 @@ h1 {
 .grid {
 	display: grid;
 	width: auto;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	justify-items: center;
 	padding: 20px;
 	font-size: 1.25rem;
@@ -67,6 +67,7 @@ h1 {
 }
 .grid-container {
   font-size: 1.3em;
+  height: auto;
 }
 
 .gridimage1 { grid-area: gridimage1; }
@@ -82,10 +83,20 @@ h1 {
 	'gridimage4 gridimage4';
   grid-gap: 10px;
   justify-content: space-between;
+  height: max-content;
 }
 
 .funstuffimage {
-	height: 8.5em; 
+	height: 11em; 
+}
+
+.smallImage {
+	width: 100%;
+}
+
+.imageText {
+	font-size: .5em;
+	margin: 0px;
 }
 
 footer {
