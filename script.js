@@ -2,7 +2,9 @@
 
 function main() {
 	$('.headerimage').hide();
+	$('.grid-container').hide();
 	$('.headerimage').fadeIn(3000);
+	$('.grid-container').fadeIn(3000);
 // Fades in the header
 /*	$('.clickable').hide();
 	$('#futureprojects').on('click', function() {

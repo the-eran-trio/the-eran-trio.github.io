@@ -5,7 +5,19 @@
 body {
 	margin: 0px;
     padding: 0px 0px;
-    background-color: #cccccc;
+		/* background-image: url(./Images/Photos/decoration-design-detail-691710.jpg); 
+		background-position: center; 
+		background-repeat: 20; 
+		background-size: cover; */
+		color: rgba(255, 255, 255, 0.8);
+
+		background-image: url(./Images/Photos/photo-1511220043390-e929fe0edf55.jpeg);
+		height: 500px; 
+	
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 }
 
 .entireSite {
@@ -23,12 +35,11 @@ h1 {
 	font-size: 10em;
 }
 
-.headerimage {
+/* .headerimage {
 	background-image: url(Images/Photos/PANO_20160805_113636.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
+} */
 
 /* The below class still doesn't behave the way I want it to, see index sheet comments */
 .internalnavigation {
@@ -42,9 +53,9 @@ h1 {
 	grid-template-columns: repeat(4, 1fr);
 	justify-items: center;
 	padding: 20px;
-	font-size: 1.25rem;
+	font-size: 1.25vw;
 	grid-column-gap: 2px;
-	background-color: black;
+	background-color: rgba(31, 30, 37, 0.5);
 }
 
 .box {
@@ -91,12 +102,20 @@ h1 {
     'aboutme funstuff funstuff'
     'currentprojects funstuff funstuff'
     'futureprojects funstuff funstuff';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 5%;
+	padding: 5%;
 }
+
 .grid-container {
-  font-size: 1.3em;
-  height: auto;
+  font-size: 1vw;
+	height: auto;
+	padding: 2%;
+	background-color: rgba(31, 30, 37, 0.8);
+	/* background-image: url('./Images/Photos/amatista-amethyst-beautiful-1121123.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.5; */
 }
 
 .gridimage1 { grid-area: gridimage1; }
